@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+#menu{
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.36);
+  background-color: #bfe1f5;
+  width: 100%;
+  position: fixed;
+  height: 6vh;
+  margin-top: 0vh;
+  margin-left: -2vh;
+  top: 0;
+}
+
+#menu  li{
+  float: left;
+  padding-left: 10vh;
+  list-style: none;
+  color: #0391e4;
+  margin-top: 1vh;
+  font-size: 3vh;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+}

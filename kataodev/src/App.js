@@ -1,9 +1,13 @@
-import './App.css';
+import './CSS/App.css';
+import MenuFixed from './components/MenuFixed.js'
 
 function App() {
   return (
-    <div>Hello world</div>
+    <>
+    <MenuFixed></MenuFixed>
+    </>
   );
 }
 
 export default App;
+ 
