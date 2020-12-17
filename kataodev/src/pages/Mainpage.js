@@ -5,8 +5,9 @@ function MainPage(){
     return(
         <>
         <Banner></Banner>
-        <div id='articlesCreated'>
-
+        <div className="gridColuns">
+            <div className="articlesCreated"></div>
+            <div className="articlesCreated"></div>
         </div>
         </>
     )
