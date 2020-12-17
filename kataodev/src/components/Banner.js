@@ -3,7 +3,7 @@ import '../CSS/App.css';
 
 function Banner(){
     return(
-        <div className="page">Hello world</div>
+        <div className="banner"></div>
     )
 }
 

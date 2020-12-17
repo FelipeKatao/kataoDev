@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 #menu{
-  -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.36);
-  -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.36);
-  box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.36);
+  z-index: 99;
   background-color: #bfe1f5;
   width: 100%;
   position: fixed;
@@ -23,7 +21,22 @@
   font-family: 'Asap', sans-serif;
 }
 
-.page{
-  margin-top: 10vh;
+/*Component Banner*/
+.banner{
+  margin-top: 4vh;
   background-color: blueviolet;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  height: 50vh;
+}
+
+/*Pagina principal*/
+#articlesCreated{
+  width: 170vh;
+  height: 40vh;
+  background-color: #0391e4;
+  position: absolute;
+  margin-top: 60vh;
+  margin-left: 16vh;
 }

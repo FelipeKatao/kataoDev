@@ -5,6 +5,9 @@ function MainPage(){
     return(
         <>
         <Banner></Banner>
+        <div id='articlesCreated'>
+
+        </div>
         </>
     )
 }
