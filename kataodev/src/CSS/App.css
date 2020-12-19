@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-*{
+body{
   overflow-x: hidden;
   font-family: 'Asap', sans-serif;
 }
@@ -35,13 +35,19 @@
   height: 50vh;
 }
 .textBanner{
+  position: relative;
   float: left;
   margin-left: 10vh;
   margin-top: 20vh;
   color: #FFF;
+  z-index: 40;
 }
 .btbanner{
   background-color: #0391e4;
+}
+#imgsBanner{
+  position: absolute;
+  z-index: 0;
 }
 
 /*Pagina principal*/
