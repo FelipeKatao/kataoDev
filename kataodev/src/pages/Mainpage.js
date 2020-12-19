@@ -8,6 +8,7 @@ function MainPage(){
     for (var i=0;i<5;i++){
         elements.push(<ArticlesMini></ArticlesMini>)
     }
+    elements.pop()
     return(
         <>
         <Banner></Banner>

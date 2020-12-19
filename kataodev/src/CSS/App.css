@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 *{
   overflow-x: hidden;
+  font-family: 'Asap', sans-serif;
 }
 #menu{
   z-index: 99;
@@ -32,6 +33,15 @@
   width: 100%;
   right: 0;
   height: 50vh;
+}
+.textBanner{
+  float: left;
+  margin-left: 10vh;
+  margin-top: 20vh;
+  color: #FFF;
+}
+.btbanner{
+  background-color: #0391e4;
 }
 
 /*Pagina principal*/
