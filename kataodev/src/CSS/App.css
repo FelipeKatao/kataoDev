@@ -46,8 +46,21 @@ body{
   background-color: #0391e4;
 }
 #imgsBanner{
+  margin-left: 90vh;
+  height: 50vh;
+  width: 120vh;
   position: absolute;
-  z-index: 0;
+  z-index: 3;
+}
+#containerShapes{
+  z-index: 1;
+  float: left;
+  position: absolute;
+  height: 50vh;
+  width: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /*Pagina principal*/
@@ -63,4 +76,25 @@ body{
   margin-top: 60vh;
   display: flex;
   flex-direction: column;
+}
+.recShape{
+  display: inline-block;
+  position: relative;
+  height: 10vh;
+  width: 10vh;
+  opacity: 0.5;
+  z-index: 4;
+}
+.shapeAlice{
+  background-color: aliceblue;
+  animation-name: rotatesInvert;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
+.ShapeBlue{
+  background-color: #0391e4;
+  animation-name: rotates;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }

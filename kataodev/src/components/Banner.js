@@ -1,6 +1,7 @@
 import React from 'react'
 import BannerText from '../components/BannerText'
-import '../CSS/App.css';
+import '../CSS/animate.css'
+import '../CSS/App.css'
 
 function Banner(){
     return(
