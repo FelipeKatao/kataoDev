@@ -2,10 +2,11 @@
 body{
   overflow-x: hidden;
   font-family: 'Asap', sans-serif;
+  background-color: #31114e;
 }
 #menu{
   z-index: 99;
-  background-color: #FFF;
+  background-color: #31114e;
   width: 100%;
   position: fixed;
   height: 6vh;
@@ -18,7 +19,7 @@ body{
   float: left;
   padding-left: 10vh;
   list-style: none;
-  color: #0391e4;
+  color: #a962ec;
   margin-top: 1vh;
   font-size: 3vh;
   text-align: center;
@@ -28,7 +29,7 @@ body{
 /*Component Banner*/
 .banner{
   margin-top: 4vh;
-  background-color: blueviolet;
+  background-color: #8a2be2;
   position: absolute;
   width: 100%;
   right: 0;
@@ -37,9 +38,9 @@ body{
 .textBanner{
   position: relative;
   float: left;
-  margin-left: 10vh;
-  margin-top: 20vh;
-  color: #FFF;
+  margin-left: 20vh;
+  margin-top: 10vh;
+  color: #a962ec;
   z-index: 40;
   background-color: black;
   opacity: 0.8;
@@ -47,7 +48,10 @@ body{
   border-radius: 2vh;
 }
 .btbanner{
-  background-color: #0391e4;
+  background-color: #5f1c9e;
+  border-radius: 2vh;
+  padding: 2vh;
+  text-align: center;
 }
 #imgsBanner{
   margin-left: 90vh;
@@ -90,15 +94,15 @@ body{
   z-index: 4;
 }
 .shapeAlice{
-  background-color: aliceblue;
+  background-color:  #7528bd;
   animation-name: rotatesInvert;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 
 }
 .ShapeBlue{
-  background-color: #0391e4;
+  background-color:  #ac53ff;
   animation-name: rotates;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 }
