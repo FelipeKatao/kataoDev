@@ -11,5 +11,5 @@
     20%{ transform: rotate3d(1,0,0,20deg); }
     40%{ transform: rotate3d(1,0,0,40deg); }
     60%{ transform: rotate3d(1,0,0,60deg); }
-    90%{ transform: rotate3d(1,0,0,90deg); }
+    90%{ transform: rotate3d(0,0,0,90deg); }
 }
