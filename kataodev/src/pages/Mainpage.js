@@ -15,10 +15,10 @@ function MainPage(){
         <>
         <Banner></Banner>
         <div className="gridRows">
-            <ArticlesMedium title="Hello world" src="" body="Loren loren loren loren loren" bt="acessar"></ArticlesMedium>
-            <ArticlesMedium title="Hello world" src="" body="Loren loren loren loren loren" bt="acessar"></ArticlesMedium>
-            <ArticlesMedium title="Hello world" src="" body="Loren loren loren loren loren" bt="acessar"></ArticlesMedium>
-            <ArticleLarge title="Hello world" src="" about="Loren loren loren loren loren loren inspum loread at yu htg loren at graikty at yu htg loren at graikty at yu htg loren at graiktyat yu htg loren at graikty at yu htg loren at graiktyat yu htg loren at graikty at yu htg loren at graikty at yu htg loren at graikty" bt="acessar"></ArticleLarge>
+            <ArticlesMedium key={4} title="Hello world" src="" body="Loren loren loren loren loren Loren loren loren loren loren Loren loren loren loren loren Loren loren loren" bt="acessar"></ArticlesMedium>
+            <ArticlesMedium title="Hello world" src="" body="Loren loren loren loren loren Loren loren loren loren loren Loren loren loren loren loren Loren loren loren" bt="acessar"></ArticlesMedium>
+            <ArticlesMedium title="Hello world" src="" body="Loren loren loren loren loren Loren loren loren loren loren Loren loren loren loren loren Loren loren loren" bt="acessar"></ArticlesMedium>
+            <ArticleLarge key={2} title="Hello world" src="" about="Loren loren loren loren loren loren inspum loread at yu htg loren at graikty at yu htg loren at graikty at yu htg loren at graiktyat yu htg loren at graikty at yu htg loren at graiktyat yu htg loren at graikty at yu htg loren at graikty at yu htg loren at graikty" bt="acessar"></ArticleLarge>
         </div>
         <Rodape></Rodape>
         </>

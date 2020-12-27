@@ -1,0 +1,24 @@
+{
+    "mainPage":{
+        "article1":{
+            "title":"teste",
+            "about":"teste about",
+            "src":"http://locval"
+        },
+        "article2":{
+            "title":"teste",
+            "about":"teste about",
+            "src":"http://locval"
+        },
+        "article3":{
+            "title":"teste",
+            "about":"teste about",
+            "src":"http://locval"
+        },
+        "article4":{
+            "title":"teste",
+            "about":"teste about",
+            "src":"http://locval"
+        }
+    }
+}
