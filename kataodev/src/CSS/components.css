@@ -42,3 +42,18 @@ footer p{
     height: 40vh;
     width: 60vh;
 }
+
+/*Robot Id*/
+#robot{
+    /*background-color: #653394;*/
+    height: 40vh;
+    width: 30vh;
+    position: fixed;
+    z-index: 99;
+    margin-left: 169vh;
+    margin-top: 60vh;
+}
+#robotImg{
+    margin-top: 25vh;
+    margin-left: 10vh;
+}
