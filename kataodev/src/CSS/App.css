@@ -4,6 +4,9 @@ body{
   font-family: 'Asap', sans-serif;
   background-color: #101011;
 }
+#root{
+  background-color: #7528bd;
+}
 #menu{
   z-index: 99;
   background-color: #101011;
