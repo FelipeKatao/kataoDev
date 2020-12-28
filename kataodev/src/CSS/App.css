@@ -164,7 +164,7 @@ body{
 .squaresEFectsBotton{
   position: absolute;
   float: left;
-  margin-top: 36vh;
+  margin-top: 41vh;
   margin-left: 40vh;
 }
 
@@ -179,8 +179,8 @@ body{
   text-align: center;
 }
 .imgbig{
-  height: 40vh;
-  width: 40vh;
+  height: 36vh;
+  width: 36vh;
   margin-top:-4vh;
   padding-top: 2vh;
 }
@@ -194,7 +194,7 @@ body{
 }
 .articleBig h3{
   position: relative;
-  margin-top: -2vh;
+  
 }
 .articleLarge{
   height: 60vh;
@@ -237,7 +237,7 @@ body{
 .imgLarge{
   margin-top: 2vh;
   height: 36vh;
-  width:60vh;
+  width:92vh;
   background-color: #101011;
   margin-left: 40vh;
 }

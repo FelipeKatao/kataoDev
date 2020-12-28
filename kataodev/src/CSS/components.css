@@ -1,11 +1,16 @@
 footer{
-    background-color: blueviolet;
+    background-color: #421b66;
+    color:#ac53ff;
     width: 100%;
     height: 10vh;
     bottom: -100%;
     margin-left: -1vh;
     right: 0;
     position: absolute;
+    text-align: center;
+}
+footer p{
+    padding-bottom: -2vh;
 }
 .containerArticle{
     height: 100%;
