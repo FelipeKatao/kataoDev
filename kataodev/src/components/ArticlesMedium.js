@@ -3,17 +3,17 @@ import '../CSS/App.css'
 import '../CSS/animate.css'
 
 function ArticlesMedium(props){
-    const SquareBlue = <div className="recShape ShapeBlue"></div>
-    const SquareAlice = <div className="recShape shapeAlice"></div>
+    const SquareBlue = <div key="t" className="recShape ShapeBlue"></div>
+    const SquareAlice = <div key="a" className="recShape shapeAlice"></div>
     let squares = [SquareAlice,SquareBlue]
     return(
-        <div className="articleBig">
+        <div className="articleBig" key={props.Id}>
             <h1 className="titleArticleBig">{props.title}</h1>
             <div className="squaresEFects">{squares}</div>
             <div className="squaresEFectsBotton">{squares}</div>
             <img className="imgbig" src={props.src}></img>
-            <h3>{props.body}</h3>
-            <div className="BtCenter btStyleStandart">{props.bt}</div>
+            <h3 key="a">{props.body}</h3>
+            <div className="BtCenter btStyleStandart btArticleBig">{props.bt}</div>
         </div>
     )
 

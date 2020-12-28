@@ -13,9 +13,9 @@ body{
   margin-top: 0vh;
   margin-left: -2vh;
   top: 0;
-  -webkit-box-shadow: -2px 13px 15px -1px rgba(0,0,0,0.61);
+  /*-webkit-box-shadow: -2px 13px 15px -1px rgba(0,0,0,0.61);
   -moz-box-shadow: -2px 13px 15px -1px rgba(0,0,0,0.61);
-  box-shadow: -2px 13px 15px -1px rgba(0,0,0,0.61);
+  box-shadow: -2px 13px 15px -1px rgba(0,0,0,0.61);*/
 }
 
 #menu  li{
@@ -139,17 +139,23 @@ body{
 .squaresEFects{
   height: 10vh;
   width: 20vh;
-  position: relative;
-  margin-top: -10vh;
+  position: absolute;
+  margin-top: -9vh;
   z-index: 0;
 }
 .btStyleStandart{
+  transition: 1s;
   border: #ac53ff solid 2px;
   color: #ac53ff;
   text-align: center;
   border-radius: 2vh;
   width: 10vh;
   padding: 2vh;
+}
+.btStyleStandart:hover{
+  transition: 1s;
+  background-color: #101011;
+  color: #ac53ff;
 }
 .BtCenter{
   margin-left: 23vh;
@@ -173,19 +179,23 @@ body{
   text-align: center;
 }
 .imgbig{
-  height: 20vh;
-  width: 20vh;
-  background-color: #101011;
+  height: 40vh;
+  width: 40vh;
+  margin-top:-4vh;
+  padding-top: 2vh;
 }
 .titleArticleBig{
-  position: relative;
   align-items: center;
+  margin-top: 1vh;
   z-index: 4;
 }
 .contentArticleBig{
   align-items: center;
 }
-
+.articleBig h3{
+  position: relative;
+  margin-top: -2vh;
+}
 .articleLarge{
   height: 60vh;
   width: 188vh;
@@ -212,6 +222,9 @@ body{
 .titleArticleLarge{
   margin-top: -20vh;
   
+}
+.btArticleBig{
+  margin-top: -2vh;
 }
 .aboutArticleLarge{
   padding-bottom: 2vh;
