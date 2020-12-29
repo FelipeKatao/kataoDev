@@ -57,3 +57,45 @@ footer p{
     margin-top: 25vh;
     margin-left: 10vh;
 }
+#speekRobot{
+    margin-left: -17vh;
+    margin-bottom: 7vh;
+}
+.robotClass:hover{
+    cursor: pointer;
+}
+#helpBox{
+    height: 20vh;
+    width: 40vh;
+    background-color: 10vh;
+    background-color: rgb(67, 77, 226);
+    opacity: 0.8;
+    border-radius: 2vh;
+    margin-top: -30vh;
+    margin-left: -25vh;
+    visibility: hidden;
+}
+.close{
+    color: #FFF;
+    background-color:black;
+    width: 2vh;
+    border-radius: 1vh;
+    font-size: medium;
+    padding: 2vh;
+    position: absolute;
+    margin-top: -2vh;
+    margin-left: 33vh;
+}
+.responseAi{
+    position: absolute;
+    width: 30vh;
+    height: 14vh;
+    background-color: #9b9595;
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
+.InputAi{
+    margin-top: 16vh;
+    margin-left: 2vh;
+    width: 30vh;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../CSS/animate.css'
 import Banner from '../components/Banner.js'
 import Rodape from '../components/Rodape.js'
 import ArticlesMini from '../components/Articlesmini.js'

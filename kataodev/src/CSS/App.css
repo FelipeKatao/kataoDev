@@ -173,6 +173,7 @@ body{
 
 /*Articles Types*/
 .articleBig{
+  transition: 1s;
   border-radius: 2vh;
   height: 60vh;
   width: 60vh;
@@ -183,6 +184,13 @@ body{
   color:#ffffff;
   text-align: center; 
   border: #bd81f5 solid 2px;
+}
+.articleBig:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  /*animation-name: transitionMove;
+  animation-duration: 10s;
+  animation-iteration-count:unset;*/
 }
 .imgbig{
   height: 36vh;
@@ -207,6 +215,7 @@ body{
   width: 188vh;
   margin-left: 4vh;
   margin-top: 2vh;
+  transition: 2s;
   /*background-color: #421b66;*/
   background-color: #281838;
   color:#fcfcfc;
@@ -215,6 +224,10 @@ body{
   text-align: center;
   border-radius: 2vh;
   border: #bd81f5 solid 2px;
+}
+.articleLarge:hover{
+  transition: 1s;
+  transform: scale(0.9);
 }
 .AnimationLarge{
   position: relative;
