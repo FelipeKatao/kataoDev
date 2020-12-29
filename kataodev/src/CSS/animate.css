@@ -17,3 +17,11 @@
     from{transform: scale(1);}
     to{transform: scale(1.1);}
 }
+@keyframes opacity{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+@keyframes opacityReverse{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}

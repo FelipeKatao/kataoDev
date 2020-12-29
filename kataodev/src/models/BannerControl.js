@@ -20,7 +20,6 @@ async function AddTimer(x){
 }
 
 function ChangeTextRender(value){
-
     AddTimer(2000).then(v =>{
         if(times>=4){
             times=0
@@ -29,6 +28,8 @@ function ChangeTextRender(value){
         document.getElementById("TitleTextBanner").innerHTML=titles[times]
         document.getElementById("AboutTextBanner").innerHTML=About[times]
         document.getElementById("btBannerText").innerHTML=btBanner[times]
+
+
         
         times++
         ChangeTextRender()
