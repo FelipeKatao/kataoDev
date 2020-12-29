@@ -28,9 +28,6 @@ function ChangeTextRender(value){
         document.getElementById("TitleTextBanner").innerHTML=titles[times]
         document.getElementById("AboutTextBanner").innerHTML=About[times]
         document.getElementById("btBannerText").innerHTML=btBanner[times]
-
-
-        
         times++
         ChangeTextRender()
     })
